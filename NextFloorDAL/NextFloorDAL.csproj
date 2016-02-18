@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>b7205223-bf4d-44ed-997d-9e2d0c044348</ProjectGuid>
+    <ProjectGuid>34d8e1b8-1464-4f00-99f9-33d3e228738c</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NextFloorDAL</RootNamespace>
