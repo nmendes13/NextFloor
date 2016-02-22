@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentallela Alela! | </title>
+    <title>Next Door | Welcome</title>
 
     <!-- Bootstrap core CSS -->
 
@@ -56,21 +56,20 @@
                             <input type="password" class="form-control" placeholder="Password" required="" />
                         </div>
                         <div>
-                            <a class="btn btn-default submit" href="index.html">Log in</a>
+                            <a class="btn btn-default submit" href="index.aspx">Log in</a>
                             <a class="reset_pass" href="#">Lost your password?</a>
                         </div>
                         <div class="clearfix"></div>
                         <div class="separator">
 
-                            <p class="change_link">New to site?
+                            <p class="change_link">New here?
                                 <a href="#toregister" class="to_register"> Create Account </a>
                             </p>
                             <div class="clearfix"></div>
                             <br />
                             <div>
-                                <h1><i class="fa fa-paw" style="font-size: 26px;"></i> Gentelella Alela!</h1>
-
-                                <p>©2015 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                                <h1>Welcome to Next Door</h1>
+                                <p>©2016 All Rights Reserved.</p>
                             </div>
                         </div>
                     </form>
@@ -80,32 +79,30 @@
             </div>
             <div id="register" class="animate form">
                 <section class="login_content">
-                    <form>
+                    <form action="post">
                         <h1>Create Account</h1>
                         <div>
-                            <input type="text" class="form-control" placeholder="Username" required="" />
+                            <input type="text" class="form-control" placeholder="Username" name="username" required="" />
                         </div>
                         <div>
-                            <input type="email" class="form-control" placeholder="Email" required="" />
+                            <input type="email" class="form-control" placeholder="Email" name="email" required="" />
                         </div>
                         <div>
-                            <input type="password" class="form-control" placeholder="Password" required="" />
+                            <input type="password" class="form-control" placeholder="Password" name="password" required="" />
                         </div>
                         <div>
-                            <a class="btn btn-default submit" href="index.html">Submit</a>
+                            <a class="btn btn-default submit" onclick="" href="index.html">Submit</a>
                         </div>
                         <div class="clearfix"></div>
                         <div class="separator">
-
                             <p class="change_link">Already a member ?
                                 <a href="#tologin" class="to_register"> Log in </a>
                             </p>
                             <div class="clearfix"></div>
                             <br />
                             <div>
-                                <h1><i class="fa fa-paw" style="font-size: 26px;"></i> Gentelella Alela!</h1>
-
-                                <p>©2015 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                                <h1>Welcome to Next Door</h1>
+                                <p>©2016 All Rights Reserved.</p>
                             </div>
                         </div>
                     </form>
